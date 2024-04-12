@@ -1,0 +1,91 @@
+@import url(./font.css);
+
+@media (max-width:1500px) {
+  
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  content: '';
+}
+
+
+body{
+  background-color: rgba(224, 224, 184, 0.801)
+;
+border: none;
+font-family: outfit-variable;
+}
+
+.container{
+  background-color: white;
+  height: 20px 20px;
+  width: 50%;
+  margin: 25%;
+  border-radius: 50px;
+  padding: 50px;
+}
+.main-img{
+  padding: 1rem;
+  border-radius: 50px;
+  border: 5px;
+ 
+}
+h1 , p{
+  padding: 10px;
+  margin: 10px;
+}
+
+.pre-time{
+  margin: 20px 85px;
+  background-color: rgba(224, 224, 184, 0.801);
+  border-radius: 20px;
+  padding: 5px 25px;
+}
+.Ing{
+  margin: 15px 45px;
+}
+.Ing-h1{
+  color: red;
+}
+hr{
+  margin: 40px;
+}
+li{
+  margin: 20px;
+}
+.Nut-item{
+  list-style: none;
+
+}
+.Nut-hr{
+  margin: -5px 40px 0px 0px ;
+
+}
+.Nut-b{
+  margin-right: 250px;
+  float: right;
+}
+}
+@media (max-width:1100) {
+  .main{
+    display: block;
+   width: 50%;
+   height: auto;
+ margin: auto;
+  
+  }
+}
+@media (max-width:750px) {
+  .container {
+    display: block;
+    position: absolute;
+    width: 100%;
+    margin: 0%;
+   
+  }
+  .Nut-b{
+    margin: 0%;
+  }
+}
